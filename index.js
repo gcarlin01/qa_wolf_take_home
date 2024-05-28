@@ -10,6 +10,9 @@ async function saveHackerNewsArticles() {
   // go to Hacker News
   await page.goto("https://news.ycombinator.com");
 
+  // wait for articles to load
+  await page.waitForSelector(".athing");
+
   // get all articles
   const articles = await page.evaluate(() => {
     const articleElements = document.querySelectorAll(".athing");
