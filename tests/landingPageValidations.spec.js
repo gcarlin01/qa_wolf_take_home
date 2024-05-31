@@ -23,7 +23,7 @@ test.describe("Landing Page Validations", () => {
         .first();
       const articlesUrls = await articleElements.getAttribute("href");
       const articlesTitles = await articleElements.innerText();
-      const articleElementVisibility = articleElements.isVisible();
+      const articleElementVisibility = await articleElements.isVisible();
 
       expect(articlesUrls).toBeTruthy();
       expect(articlesTitles).toBeTruthy();
