@@ -47,6 +47,7 @@ npm test
 - [`pageObjects/launchBrowser.js`](pageObjects/launchBrowser.js): Module to launch the browser.
 - [`pageObjects/hackerNewsArticleScraper.js`](pageObjects/hackerNewsArticleScraper.js): Module to scrape articles from Hacker News.
 - [`pageObjects/csvWriter.js`](pageObjects/csvWriter.js): Module to write articles to a CSV file.
+- [`tests/landingPageValidations.spec.js`](tests/landingPageValidations.spec.js): Playwright test for landing page validations.
 - [`tests/runScript.spec.js`](tests/runScript.spec.js): Playwright test to run the script and verify CSV output.
 - [`playwright.config.js`](playwright.config.js): Playwright configuration file.
 - [`topTenArticles.csv`](topTenArticles.csv): Generated CSV file with the top 10 Hacker News articles.
