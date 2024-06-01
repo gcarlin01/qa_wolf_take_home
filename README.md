@@ -32,7 +32,7 @@ npx playwright install
 ### Running the Script
 
 ```bash
-node index.jx
+node index.js
 ```
 
 ### Running the Tests
