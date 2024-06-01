@@ -13,8 +13,8 @@ This project includes a script to scrape the top 10 articles from [Hacker News](
 To get started, clone the repository:
 
 ```bash
-git clone <https://github.com/gcarlin01/qa_wolf_take_home.git>
-cd <qa_wolf_take_home>
+git clone https://github.com/gcarlin01/qa_wolf_take_home.git
+cd qa_wolf_take_home
 ```
 
 ### Installing Dependencies
