@@ -1,9 +1,9 @@
 require("dotenv").config();
-const { launchBrowser } = require("./pageObjects/launchBrowser");
+const { launchBrowser } = require("./utils/launchBrowser");
 const {
   hackerNewsArticleScraper,
-} = require("./pageObjects/hackerNewsArticleScraper");
-const { csvWriter } = require("./pageObjects/csvWriter");
+} = require("./utils/hackerNewsArticleScraper");
+const { csvWriter } = require("./utils/csvWriter");
 
 async function saveHackerNewsArticle() {
   try {
