@@ -44,9 +44,9 @@ npm test
 ## Project Structure
 
 - [`index.js`](index.js): Main script to scrape Hacker News and save articles to a CSV file.
-- [`pageObjects/launchBrowser.js`](pageObjects/launchBrowser.js): Module to launch the browser.
-- [`pageObjects/hackerNewsArticleScraper.js`](pageObjects/hackerNewsArticleScraper.js): Module to scrape articles from Hacker News.
-- [`pageObjects/csvWriter.js`](pageObjects/csvWriter.js): Module to write articles to a CSV file.
+- [`utils/launchBrowser.js`](utils/launchBrowser.js): Module to launch the browser.
+- [`utils/hackerNewsArticleScraper.js`](utils/hackerNewsArticleScraper.js): Module to scrape articles from Hacker News.
+- [`utils/csvWriter.js`](utils/csvWriter.js): Module to write articles to a CSV file.
 - [`tests/landingPageValidations.spec.js`](tests/landingPageValidations.spec.js): Playwright test for landing page validations.
 - [`tests/runScript.spec.js`](tests/runScript.spec.js): Playwright test to run the script and verify CSV output.
 - [`playwright.config.js`](playwright.config.js): Playwright configuration file.
